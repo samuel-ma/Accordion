@@ -1,11 +1,9 @@
-import { useState } from "react"
+function Accordion({ id, question, answer, current, onOpen }) {
 
-function Accordion({ id, question, answer }) {
-
-    const [open, setOpen] = useState(false);
+    const isOpen = (id === current);
 
     const handleToggle = () => {
-        setOpen(open => !open);
+        onOpen(isOpen ? null : id);
     }
 
     return (
@@ -18,7 +16,7 @@ function Accordion({ id, question, answer }) {
                 }</p>
             </div>
             {
-                (open) && <p className="answer">{answer}</p>
+                (isOpen) && <p className="answer">{answer}</p>
             }
 
         </section>
