@@ -1,0 +1,93 @@
+:root {
+    --white: white;
+    --bg: rgba(255, 255, 255, 0.87);
+    --black: #363131;
+    --border: rgb(226, 223, 223);
+    --grey: rgb(177, 174, 174);
+}
+
+.body {
+    background-color: var(--bg);
+    color: var(--black);
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: smaller;
+}
+
+.faq {
+    font-size: 40px;
+}
+
+.accordion {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    border: 1px solid var(--border);
+    background-color: var(--white);
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.accordion:hover {
+    background: linear-gradient(to right, #9733ee, #da22ff);
+    color: var(--white);
+    border: 1px solid white;
+}
+
+.question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+}
+
+.id {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    width: 10px;
+    height: 10px;
+    font-size: 20px;
+    margin: 0;
+    font-weight: bolder;
+    color: var(--grey);
+    border: 1px solid var(--border);
+}
+
+.item {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    font-size: small;
+}
+
+.plus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    width: 10px;
+    height: 10px;
+    border-radius: 40px;
+    font-size: 20px;
+    margin: 0;
+    font-weight: bolder;
+    border: 1px solid var(--border);
+}
+
+.answer {
+    font-size: smaller;
+    font-style: italic;
+}

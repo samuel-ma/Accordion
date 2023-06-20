@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "question": "Where are these chairs assembled?",
+        "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ad labore adipisci soluta doloribus dolorum quo dolores, veniam nemo, ipsa quasi fuga ducimus maiores facere? Pariatur et natus assumenda aliquid."
+    },
+    {
+        "id": 2,
+        "question": "How long do I have to return my chair?",
+        "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ad labore adipisci soluta doloribus dolorum quo dolores, veniam nemo, ipsa quasi fuga ducimus maiores facere? Pariatur et natus assumenda aliquid."
+    },
+    {
+        "id": 3,
+        "question": "Do you ship to countries outside the EU?",
+        "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ad labore adipisci soluta doloribus dolorum quo dolores, veniam nemo, ipsa quasi fuga ducimus maiores facere? Pariatur et natus assumenda aliquid."
+    },
+    {
+        "id": 4,
+        "question": "What time do you normally open?",
+        "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ad labore adipisci soluta doloribus dolorum quo dolores, veniam nemo, ipsa quasi fuga ducimus maiores facere? Pariatur et natus assumenda aliquid."
+    }
+]
